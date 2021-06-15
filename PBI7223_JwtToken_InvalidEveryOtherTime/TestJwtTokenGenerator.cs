@@ -25,7 +25,7 @@ namespace PBI7223_JwtToken_InvalidEveryOtherTime
         {
             var payload = new Dictionary<string, object>
             {
-                {"iss", "sp2-kt.socialstyrelsen.se"},
+                {"iss", "SomeUrlHere"},
                 {"sn", "TestName1"},
                 {"givenName", "TestName2"},
                 {"nameid", "190210099297"},
